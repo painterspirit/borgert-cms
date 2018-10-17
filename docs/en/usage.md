@@ -60,7 +60,7 @@ Route::group(['prefix' => 'blog', 'as' => 'blog.'], function () {
 
 <a name="languages"></a>
 ## Languages
-Four languages currently available for Borgert CMS, Portuguese, Spanish, and English, by default we will be setting English.
+There are four languages currently available for Borgert CMS: Portuguese, Spanish, English and Simplified Chinese. By default, we will be using English.
 In the config/app.php file, look for locale and fallback_locale and change to `pt`.
 
 The files for translations are located in the `resources/lang/[en,pt,es,zh_cn]/[admin,blog]/**`
